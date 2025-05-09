@@ -2,7 +2,7 @@
 
 const express = require("express");
 const app = express();
-const controller = require("./controller.js");
+const controller = require("./controllers/controllers.js");
 
 app.get("/jacob", controller.jacobRoute);
 app.get("/marissa", controller.marissaRoute);
